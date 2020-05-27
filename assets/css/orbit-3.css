@@ -76,8 +76,8 @@ p {
 }
 
 .sidebar-wrapper .name {
-  font-size: 32px;
-  font-weight: 900;
+  font-size: 24px;
+  font-weight: 500;
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -93,7 +93,17 @@ p {
 
 
 .sidebar-wrapper .profile {
-  margin-bottom: 15px;
+  
+  display:block;
+    margin:auto;
+    max-width:100%;
+    width:75%;
+    border-radius:50% 0 50% 0;
+    -webkit-border-radius:50% 0 50% 0;
+    -moz-border-radius:50% 0 50% 0;
+    -ms-border-radius:50% 0 50% 0;
+    -o-border-radius:50% 0 50% 0;
+    margin-bottom: 15px;
 }
 
 .sidebar-wrapper .contact-list .svg-inline--fa {
@@ -347,17 +357,6 @@ border-radius: 10px;}
 /* Ferhat's part */
 .contact-container li {display:-webkit-box;display:flex;
   flex-wrap:nowrap}
-  
-  .profile{
-    display:block;
-    max-width:100%;
-    height:auto;
-    border-radius:50% 0 50% 0;
-    -webkit-border-radius:50% 0 50% 0;
-    -moz-border-radius:50% 0 50% 0;
-    -ms-border-radius:50% 0 50% 0;
-    -o-border-radius:50% 0 50% 0;
-}
   
     .meta2 {
     background: rgba(120, 200, 120, 0.2);
