@@ -369,13 +369,8 @@ border-radius: 10px;}
   flex-wrap:nowrap}
   
     .meta2 {
-    background: rgba(120, 200, 120, 0.2);
+    background: rgba(120, 200, 120, 0.3);
     padding:5px;
-    border-radius:2px;
-    -webkit-border-radius:2px;
-    -moz-border-radius:2px;
-    -ms-border-radius:2px;
-    -o-border-radius:2px;
   } 
   
   
@@ -394,14 +389,14 @@ border-radius: 10px;}
   }
   
   @-webkit-keyframes green {
-    0% {background: yellow;
+    0% {background: yellowgreen;
       opacity: 0;
       width:0;}
       100%  {max-width: 100%;}
   }
   
   @keyframes green {
-    0% {background: yellow;
+    0% {background: yellowgreen;
       opacity: 0;
       width:0;}
       100%  {max-width: 100%;}
