@@ -97,7 +97,6 @@ p {
   display:block;
     margin:auto;
     max-width:100%;
-    width:75%;
     border-radius:50% 0 50% 0;
     -webkit-border-radius:50% 0 50% 0;
     -moz-border-radius:50% 0 50% 0;
@@ -331,6 +330,10 @@ border-radius: 10px;}
   .sidebar-wrapper {
     position: static;
     width: inherit;
+  }
+
+  .sidebar-wrapper .profile {
+    width:50%;
   }
   .main-wrapper {
     padding: 30px;
