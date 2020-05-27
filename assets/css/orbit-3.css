@@ -44,7 +44,7 @@ p {
 }
 
 .wrapper {
-  background: #5BB66F;
+  background:linear-gradient(90deg, yellowgreen, #5BB66F);
   max-width: 960px;
   margin: 0 auto;
   margin-top: 30px;
@@ -55,7 +55,7 @@ p {
 }
 
 .sidebar-wrapper {
-  background: #5BB66F;
+  background: linear-gradient(90deg,#5BB66F, yellowgreen) ;
   position: absolute;
   right: 0;
   width: 240px;
@@ -229,7 +229,7 @@ p {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #3d884d;
+  background: linear-gradient(yellowgreen,#3d884d);
   text-align: center;
   font-size: 16px;
   position: relative;
@@ -302,7 +302,7 @@ p {
 }
 
 .skillset .level-bar {
-  height: 12px;
+  height: 8px;
   background: #f5f5f5;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -315,7 +315,7 @@ p {
 }
 
 .skillset .theme-progress-bar {
-  background: #7ec68e;
+  background: linear-gradient(45deg, #7ec68e, yellowgreen );
 border-radius: 10px;}
 
 .footer {
